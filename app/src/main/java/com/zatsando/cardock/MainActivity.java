@@ -10,8 +10,6 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int REQUEST_SELECT_CONTACT = DEFAULT_KEYS_DIALER;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openPhone(View view) {
-
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:"));
+        startActivity(intent);
     }
 
     public void getSpeed(){
