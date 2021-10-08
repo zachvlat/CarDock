@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void getSpeed(){
-
+    public void getcurrentSpeed(){
+    //in the future this will get the current speed of the vehicle lol
     }
 }

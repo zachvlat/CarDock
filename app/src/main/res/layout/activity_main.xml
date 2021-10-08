@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.343"
-        app:srcCompat="@android:drawable/ic_dialog_map" />
+        app:srcCompat="@drawable/ic_maps" />
 
     <ImageButton
         android:id="@+id/openMusic"
@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.68"
-        app:srcCompat="@android:drawable/ic_media_play" />
+        app:srcCompat="@drawable/ic_music" />
 
     <ImageButton
         android:id="@+id/openPhone"
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.343"
-        app:srcCompat="@android:drawable/stat_sys_phone_call"
+        app:srcCompat="@drawable/ic_phone"
         tools:ignore="UnknownId" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
