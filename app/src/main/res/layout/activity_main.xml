@@ -10,21 +10,21 @@
     <ImageButton
         android:id="@+id/openMaps"
         android:layout_width="150dp"
-        android:layout_height="148dp"
+        android:layout_height="150dp"
         android:layout_marginStart="40dp"
         android:onClick="openMaps"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/openPhone"
-        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintEnd_toStartOf="@+id/openMusic"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.343"
+        app:layout_constraintVertical_bias="0.3"
         app:srcCompat="@drawable/ic_maps" />
 
     <ImageButton
         android:id="@+id/openMusic"
         android:layout_width="150dp"
-        android:layout_height="148dp"
+        android:layout_height="150dp"
         android:onClick="openMusic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,15 +37,15 @@
     <ImageButton
         android:id="@+id/openPhone"
         android:layout_width="150dp"
-        android:layout_height="148dp"
-        android:layout_marginEnd="40dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="56dp"
         android:onClick="openPhone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.343"
+        app:layout_constraintVertical_bias="0.301"
         app:srcCompat="@drawable/ic_phone"
         tools:ignore="UnknownId" />
 
